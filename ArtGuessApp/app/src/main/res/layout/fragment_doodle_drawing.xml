@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#fff"
+    android:gravity="center"
+    android:focusable="true"
+    android:clickable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imvClose"
+            android:src="@drawable/ic_close"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <ImageView
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/imvClear"
+            android:src="@drawable/ic_erase_canvas"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/txvDoodleName"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
+            android:text="Cactus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/txvDoodleName"
+            android:id="@+id/txvCountDownTimer"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="00:00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+    <doodle.doodleme.doodleme.Views.DrawingCanvas
+        android:layout_below="@id/relativeLayout"
+        android:id="@+id/drawingCanvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/txvPredictions"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

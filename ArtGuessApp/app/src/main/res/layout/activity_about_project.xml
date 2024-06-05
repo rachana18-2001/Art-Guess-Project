@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:scrollbars="none"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:background="#fff"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@drawable/about_project_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="30dp"
+            android:textSize="27sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="About Project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Description of Project goes here..."
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:id="@+id/txvProjectDescription"
+            android:layout_marginTop="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="30dp"
+            android:textSize="23sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Attribution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="License and copy write stuff here..."
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:id="@+id/txvAttribution"
+            android:layout_marginTop="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:text="Creative Commons Attribution 4.0 International license"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:id="@+id/txvLicense"
+            android:layout_marginTop="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:src="@drawable/about_project_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

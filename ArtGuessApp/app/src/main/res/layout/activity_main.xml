@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#fff"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/doodleimg3" />
+
+    <TextView
+        android:id="@+id/txvCounter"
+        android:textStyle="bold"
+        android:layout_above="@+id/txvLabel"
+        android:text="1 / 19"
+        android:textColor="@color/colorPrimary"
+        android:textSize="27sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:id="@+id/txvLabel"
+        android:text="Can you Doodle Me?"
+        android:textColor="@color/colorPrimary"
+        android:textSize="27sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_below="@+id/txvLabel"
+        android:text="I am"
+        android:id="@+id/txvAnotherLabel"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txvAnotherLabel"
+        android:text="Cactus"
+        android:id="@+id/txvDoodleName"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:background="@drawable/bordered_background"
+        android:stateListAnimator="@null"
+        android:id="@+id/btnStart"
+        android:layout_centerHorizontal="true"
+        android:text="start"
+        android:layout_below="@+id/txvDoodleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tipOne"
+        android:text="Doodle under 30 seconds"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Try using entire CANVAS to draw"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tipOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </FrameLayout>
+
+</RelativeLayout>
