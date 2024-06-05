@@ -40,6 +40,6 @@ Gradle version	:  6.7.1
 - Trained on over 0.605 million unique doodle drawing
 - Tested against 0.132 million unique doodles, achieving an accuracy of 68.29%
 - Robust android app developed for testing and model evaluation
-- 
+  
 
 <b>images<b>: https://github.com/rachana18-2001/Art-Guess-Project/tree/master/images
