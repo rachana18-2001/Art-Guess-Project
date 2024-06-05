@@ -6,9 +6,13 @@ Art Guessis a CNN (Convolutional Neural Network) based deep learning project whi
 
 
 <b>Dataset Details:</b>
+
 Total Categories: 123
+
 Images per Category: 6000 (4920 for training, 1080 for testing)
+
 Total Training Images: 606,360 (4920 images * 123 categories)
+
 Total Testing Images: 132,840 (1080 images * 123 categories)
 
 The Quick, Draw! Dataset has a collection of 50 Million drawings across 345 categories. This data is made available by Google, Inc. under the Creative Commons Attribution 4.0 International license. Google Creative Cloud: Quick, Draw! Dataset
