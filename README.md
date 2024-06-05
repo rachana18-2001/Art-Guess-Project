@@ -33,7 +33,7 @@ Software type 	:  Android Application
 Jdk version			:  21
 
 Gradle version	:  6.7.1
-<b>
+</b>
 
 ## Features
 - The neural network is based on CNN architecture
