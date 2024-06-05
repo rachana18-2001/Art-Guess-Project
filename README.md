@@ -1,6 +1,10 @@
-<b>Art Guess</b> is a CNN (Convolutional Neural Network) based deep learning project which is trained to distinguish 123 different doodle categories, with an included Android App, powered by `tflite`, for demostration purpose
+<b>Art Guess</b> 
+
+Art Guessis a CNN (Convolutional Neural Network) based deep learning project which is trained to distinguish 123 different doodle categories, with an included Android App, powered by `tflite`, for demostration purpose
 
 <b>Dataset link</b>: https://github.com/rachana18-2001/Art-Guess-Project-Dataset
+
+
 <b>Dataset Details:</b>
 Total Categories: 123
 Images per Category: 6000 (4920 for training, 1080 for testing)
